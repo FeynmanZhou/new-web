@@ -15,7 +15,7 @@ export default function Comments(): JSX.Element {
         Feel free to leave a comment here! Please stick to English. This comment
         thread directly maps to a{" "}
         <Link
-          href="https://github.com/mirsazzathossain/mirsazzathossain.me/discussions/"
+          href="https://github.com/mirsazzathossain/feynmanzhou.com/discussions/"
           target="blank"
         >
           <em className="text-teal-500">discussion on GitHub</em>
@@ -48,7 +48,7 @@ export default function Comments(): JSX.Element {
         </Link>{" "}
         application, you can also comment directly{" "}
         <Link
-          href="https://github.com/mirsazzathossain/mirsazzathossain.me/discussions?discussions"
+          href="https://github.com/mirsazzathossain/feynmanzhou.com/discussions?discussions"
           target="blank"
         >
           <em className="text-teal-500">on GitHub</em>
