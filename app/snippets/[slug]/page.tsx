@@ -29,11 +29,11 @@ export async function generateMetadata({
       url: `${server}/snippets/${snippet?.slug}`,
       type: "website",
       site_name:
-        "Mir Sazzat Hossain - Innovative Researcher and Skilled Mentor",
+        "Feynman Zhou - Innovative Researcher and Skilled Mentor",
       images: [
         {
           url: `${server}/images/og-image.png`,
-          alt: "Mir Sazzat Hossain",
+          alt: "Feynman Zhou",
           width: 1200,
           height: 630,
         },
@@ -49,7 +49,7 @@ export async function generateMetadata({
       images: [
         {
           url: `${server}/images/og-image.png`,
-          alt: "Mir Sazzat Hossain",
+          alt: "Feynman Zhou",
           width: 1200,
           height: 630,
         },

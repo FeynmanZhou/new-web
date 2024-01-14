@@ -10,16 +10,16 @@ export const metadata: Metadata = {
   description:
     "During my time at IUB, I've worked as a teaching assistant and research assistant for a few different courses. These are the courses I've instructed.",
   openGraph: {
-    title: "Courses - Mir Sazzat Hossain",
+    title: "Courses - Feynman Zhou",
     description:
       "During my time at IUB, I've worked as a teaching assistant and research assistant for a few different courses. These are the courses I've instructed.",
     url: `${server}/courses`,
     type: "website",
-    site_name: "Mir Sazzat Hossain - Innovative Researcher and Skilled Mentor",
+    site_name: "Feynman Zhou - Innovative Researcher and Skilled Mentor",
     images: [
       {
         url: `${server}/images/og-image.png`,
-        alt: "Mir Sazzat Hossain",
+        alt: "Feynman Zhou",
         width: 1200,
         height: 630,
       },
@@ -30,13 +30,13 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@mir_sazzat",
     creator: "@mir_sazzat",
-    title: "Courses - Mir Sazzat Hossain",
+    title: "Courses - Feynman Zhou",
     description:
       "During my time at IUB, I've worked as a teaching assistant and research assistant for a few different courses. These are the courses I've instructed.",
     images: [
       {
         url: `${server}/images/og-image.png`,
-        alt: "Mir Sazzat Hossain",
+        alt: "Feynman Zhou",
         width: 1200,
         height: 630,
       },

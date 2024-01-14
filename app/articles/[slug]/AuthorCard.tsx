@@ -31,9 +31,8 @@ export default function AuthorCard({
           </div>
           <div>
             <p>
-              <Link href={article.author.url || ""}> Mir Sazzat Hossain</Link>{" "}
-              is a Research Assistant at the Independent University of
-              Bangladesh&apos;s Center for Computation and Data Science (CCDS).
+              <Link href={article.author.url || ""}> Feynman Zhou</Link>{" "}
+              is a Product Manager for Microsoft Azure. He focuses on cloud-native technologies and software supply chain security.
             </p>
           </div>
         </div>

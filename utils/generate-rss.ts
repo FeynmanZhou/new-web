@@ -3,7 +3,7 @@ import { Feed } from "feed";
 import fs from "fs";
 
 export default async function generateRss(): Promise<void> {
-  const site_url = `${process.env.SITE_URL || "https://mirsazzathossain.me"}`;
+  const site_url = `${process.env.SITE_URL || "https://feynmanzhou.com"}`;
 
   const articles = await allArticles;
 
@@ -14,14 +14,14 @@ export default async function generateRss(): Promise<void> {
   );
 
   const author = {
-    name: "Mir Sazzat Hossain",
+    name: "Feynman Zhou",
     email: "mirsazzathossain@gmail.com",
-    link: "https://mirsazzathossain.me",
+    link: "https://feynmanzhou.com",
   };
 
   const feedOptions = {
-    title: "RSS Feed - Mir Sazzat Hossain",
-    description: "Mir Sazzat Hossain's personal blog",
+    title: "RSS Feed - Feynman Zhou",
+    description: "Feynman Zhou's personal blog",
     id: site_url,
     link: site_url,
     image: `${site_url}/images/og-image.png`,

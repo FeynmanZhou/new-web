@@ -9,23 +9,23 @@ import ClientThemeProvider from "./theme-provider";
 export const metadata: Metadata = {
   title: {
     default: "Feynman Zhou - All things cloud-native",
-    template: "%s - Mir Sazzat Hossain",
+    template: "%s - Feynman Zhou",
   },
   description:
     "As a product manager at Microsoft, Feynman is in the Azure Container Registry team and focuses on the software secure supply chain.",
-  generator: "Mir Sazzat Hossain - Personal Website",
-  applicationName: "Mir Sazzat Hossain - Personal Website",
+  generator: "Feynman Zhou - Personal Website",
+  applicationName: "Feynman Zhou - Personal Website",
   referrer: "origin-when-cross-origin",
   keywords: [
-    "Mir Sazzat Hossain",
+    "Feynman Zhou",
     "Mir Sazzat",
     "Sazzat",
     "Sazzat Hossain",
     "Mir",
     "Hossain",
-    "Mir Sazzat Hossain",
-    "Mir Sazzat Hossain - Innovative Researcher and Skilled Mentor",
-    "Mir Sazzat Hossain - Personal Website",
+    "Feynman Zhou",
+    "Feynman Zhou - Innovative Researcher and Skilled Mentor",
+    "Feynman Zhou - Personal Website",
     "Sajjad",
     "Sajjat",
     "Hossain",
@@ -34,31 +34,31 @@ export const metadata: Metadata = {
   ],
   authors: [
     {
-      name: "Mir Sazzat Hossain",
+      name: "Feynman Zhou",
       url: `${server}`,
     },
   ],
   themeColor: "#ffffff",
   colorScheme: "light",
-  creator: "Mir Sazzat Hossain",
-  publisher: "Mir Sazzat Hossain",
+  creator: "Feynman Zhou",
+  publisher: "Feynman Zhou",
   formatDetection: {
     telephone: true,
     address: true,
     email: true,
   },
   openGraph: {
-    title: "Mir Sazzat Hossain - Innovative Researcher and Skilled Mentor",
+    title: "Feynman Zhou - Innovative Researcher and Skilled Mentor",
     description:
-      "Mir Sazzat Hossain is a recent college graduate with a solid foundation in computer science as well as competence in exploratory data analysis, machine learning, computer vision, and statistics. He is currently working as a Research Assistant at the Independent University, Bangladesh's Center for Computational and Data Sciences.",
+      "Feynman Zhou is a recent college graduate with a solid foundation in computer science as well as competence in exploratory data analysis, machine learning, computer vision, and statistics. He is currently working as a Product Manager at the Independent University, Bangladesh's Center for Computational and Data Sciences.",
     url: `${server}`,
-    siteName: "Mir Sazzat Hossain - Innovative Researcher and Skilled Mentor",
+    siteName: "Feynman Zhou - Innovative Researcher and Skilled Mentor",
     images: [
       {
         url: `${server}/images/og-image.png`,
         width: 1200,
         height: 630,
-        alt: "Mir Sazzat Hossain - Innovative Researcher and Skilled Mentor",
+        alt: "Feynman Zhou - Innovative Researcher and Skilled Mentor",
       },
     ],
     locale: "en_US",
@@ -114,16 +114,16 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@mir_sazzat",
-    title: "Mir Sazzat Hossain - Innovative Researcher and Skilled Mentor",
+    title: "Feynman Zhou - Innovative Researcher and Skilled Mentor",
     description:
-      "Mir Sazzat Hossain is a recent college graduate with a solid foundation in computer science as well as competence in exploratory data analysis, machine learning, computer vision, and statistics. He is currently working as a Research Assistant at the Independent University, Bangladesh's Center for Computational and Data Sciences.",
+      "Feynman Zhou is a recent college graduate with a solid foundation in computer science as well as competence in exploratory data analysis, machine learning, computer vision, and statistics. He is currently working as a Product Manager at the Independent University, Bangladesh's Center for Computational and Data Sciences.",
     creator: "@mir_sazzat",
     images: [
       {
         url: `${server}/images/og-image.png`,
         width: 1200,
         height: 630,
-        alt: "Mir Sazzat Hossain - Innovative Researcher and Skilled Mentor",
+        alt: "Feynman Zhou - Innovative Researcher and Skilled Mentor",
       },
     ],
   },

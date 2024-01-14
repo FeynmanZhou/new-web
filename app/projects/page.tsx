@@ -10,16 +10,16 @@ export const metadata: Metadata = {
   description:
     "I’ve worked on tons of little projects over the years but these are the ones that I’m most proud of. Many of them are open-source, so if you see something that piques your interest, check out the code and contribute if you have ideas for how it can be improved.",
   openGraph: {
-    title: "Projects - Mir Sazzat Hossain",
+    title: "Projects - Feynman Zhou",
     description:
       "I’ve worked on tons of little projects over the years but these are the ones that I’m most proud of. Many of them are open-source, so if you see something that piques your interest, check out the code and contribute if you have ideas for how it can be improved.",
     url: `${server}/projects`,
     type: "website",
-    site_name: "Mir Sazzat Hossain - Innovative Researcher and Skilled Mentor",
+    site_name: "Feynman Zhou - Innovative Researcher and Skilled Mentor",
     images: [
       {
         url: `${server}/images/og-image.png`,
-        alt: "Mir Sazzat Hossain",
+        alt: "Feynman Zhou",
         width: 1200,
         height: 630,
       },
@@ -30,13 +30,13 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@mir_sazzat",
     creator: "@mir_sazzat",
-    title: "Projects - Mir Sazzat Hossain",
+    title: "Projects - Feynman Zhou",
     description:
       "I’ve worked on tons of little projects over the years but these are the ones that I’m most proud of. Many of them are open-source, so if you see something that piques your interest, check out the code and contribute if you have ideas for how it can be improved.",
     images: [
       {
         url: `${server}/images/og-image.png`,
-        alt: "Mir Sazzat Hossain",
+        alt: "Feynman Zhou",
         width: 1200,
         height: 630,
       },
