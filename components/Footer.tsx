@@ -4,8 +4,6 @@ import Link from "next/link";
 const navigations = [
   { href: "/articles", label: "Articles" },
   { href: "/projects", label: "Projects" },
-  { href: "/courses", label: "Courses" },
-  { href: "/snippets", label: "Snippets" },
   { href: "/resources", label: "Resources" },
 ];
 

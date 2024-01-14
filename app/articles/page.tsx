@@ -85,7 +85,7 @@ export default async function Articles({
 
   return (
     <SimpleLayout
-      title="Writing on Machine Learning, Advance Math, and Programming"
+      title="Writing on Cloud-native Technologies, Product Management, and Security"
       intro="All my articles are written with the goal of helping you learn something new. I hope you enjoy them!"
     >
       <SearchArticles articles={articles} page={page} />
