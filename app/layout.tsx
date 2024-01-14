@@ -8,11 +8,11 @@ import ClientThemeProvider from "./theme-provider";
 
 export const metadata: Metadata = {
   title: {
-    default: "Mir Sazzat Hossain - Innovative Researcher and Skilled Mentor",
+    default: "Feynman Zhou - All things cloud-native",
     template: "%s - Mir Sazzat Hossain",
   },
   description:
-    "Mir Sazzat Hossain is a recent college graduate with a solid foundation in computer science as well as competence in exploratory data analysis, machine learning, computer vision, and statistics. He is currently working as a Research Assistant at the Independent University, Bangladesh's Center for Computational and Data Sciences.",
+    "As a product manager at Microsoft, Feynman is in the Azure Container Registry team and focuses on the software secure supply chain.",
   generator: "Mir Sazzat Hossain - Personal Website",
   applicationName: "Mir Sazzat Hossain - Personal Website",
   referrer: "origin-when-cross-origin",
@@ -83,31 +83,31 @@ export const metadata: Metadata = {
         url: "/favicon.ico",
       },
       new URL("/favicon.ico", server).href,
-      {
-        url: "/favicon-16x16.png",
-        sizes: "16x16",
-        type: "image/png",
-      },
-      {
-        url: "/favicon-32x32.png",
-        sizes: "32x32",
-        type: "image/png",
-      },
-    ],
-    apple: [
-      {
-        url: "/apple-touch-icon.png",
-      },
-    ],
-    other: [
-      {
-        rel: "android-chrome-192x192",
-        url: "/android-chrome-192x192.png",
-      },
-      {
-        rel: "android-chrome-512x512",
-        url: "/android-chrome-512x512.png",
-      },
+    //   {
+    //     url: "/favicon-16x16.png",
+    //     sizes: "16x16",
+    //     type: "image/png",
+    //   },
+    //   {
+    //     url: "/favicon-32x32.png",
+    //     sizes: "32x32",
+    //     type: "image/png",
+    //   },
+    // ],
+    // apple: [
+    //   {
+    //     url: "/apple-touch-icon.png",
+    //   },
+    // ],
+    // other: [
+    //   {
+    //     rel: "android-chrome-192x192",
+    //     url: "/android-chrome-192x192.png",
+    //   },
+    //   {
+    //     rel: "android-chrome-512x512",
+    //     url: "/android-chrome-512x512.png",
+    //   },
     ],
   },
   manifest: `./site.webmanifest/`,

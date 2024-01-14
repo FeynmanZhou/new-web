@@ -24,18 +24,6 @@
     }
   },
   {
-    "title": "Spotify Playing Now: A card for showing your currently playing Spotify song",
-    "description": "A card for showing your currently playing Spotify song on your GitHub profile README or any other markdown file. 🎵🎶",
-    "link": {
-      "href": "https://github.com/mirsazzathossain/spotify-playing-now",
-      "label": "spotify-playing-now"
-    },
-    "logo": {
-      "src": "project-logos/spotify-playing-now.png",
-      "alt": "Spotify Playing Now"
-    }
-  },
-  {
     "title": "Food Judge: A social media platform for foodies",
     "description": "A social media platform for foodies to find restaurants, share their experiences, and connect with other foodies. 🍴🚀",
     "link": {

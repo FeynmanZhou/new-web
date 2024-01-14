@@ -3,27 +3,7 @@ import { server } from "config";
 import { allArticles } from "contentlayer/generated";
 import fs, { promises as ps } from "fs";
 import Articles from "./Articles";
-import Educations from "./Educations";
 import Experiences from "./Experiences";
-import LifeEvents from "./LifeEvents";
-import Publications from "./Publications";
-
-// get educations from the local file
-async function getEducations(): Promise<any> {
-  if (fs.existsSync("public/content/educations.json")) {
-    const res = await ps.readFile("public/content/educations.json", "utf-8");
-    const educations: Education[] = JSON.parse(res);
-    return educations;
-  }
-
-  const educations = fetch(`${server}/content/educations.json`)
-    .then((response) => response.json())
-    .then((data) => {
-      return data;
-    });
-
-  return educations;
-}
 
 // get experiences from the local file
 async function getExperiences(): Promise<any> {
@@ -40,40 +20,6 @@ async function getExperiences(): Promise<any> {
     });
 
   return experiences;
-}
-
-// get publications from the local bibliography file
-async function getPublications(): Promise<any> {
-  if (fs.existsSync("public/content/publications.bib")) {
-    const res = await ps.readFile("public/content/publications.bib", "utf-8");
-    const publications: any = BibtexParser.parseToJSON(res);
-    return publications;
-  }
-
-  const publications = fetch(`${server}/content/publications.bib`)
-    .then((response) => response.text())
-    .then((data) => {
-      return BibtexParser.parseToJSON(data);
-    });
-
-  return publications;
-}
-
-// get life events from the local file
-async function getLifeEvents(): Promise<any> {
-  if (fs.existsSync("public/content/life_events.json")) {
-    const res = await ps.readFile("public/content/life_events.json", "utf-8");
-    const lifeEvents: any = JSON.parse(res);
-    return lifeEvents;
-  }
-
-  const lifeEvents = fetch(`${server}/content/life_events.json`)
-    .then((response) => response.json())
-    .then((data) => {
-      return data;
-    });
-
-  return lifeEvents;
 }
 
 // get sorted articles from the contentlayer
@@ -104,8 +50,6 @@ export default async function Server({
       return <Publications publications={await getPublications()} />;
     case "Articles":
       return <Articles articles={await getSortedArticles()} />;
-    case "LifeEvents":
-      return <LifeEvents lifeEvents={await getLifeEvents()} />;
     default:
       return <></>;
   }

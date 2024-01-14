@@ -1,11 +1,11 @@
 {
-  "name": "Mir Sazzat Hossain",
-  "designation": "Research Assistant",
+  "name": "Feynman Zhou",
+  "designation": "Product Manager",
   "company": {
-    "name": "Center for Computational & Data Sciences",
-    "url": "https://ccds.ai/"
+    "name": "Microsoft",
+    "url": "https://microsoft.com/"
   },
-  "description": "I am a research assistant at the Center for Computational and Data Sciences (CCDS) at Independent University, Bangladesh (IUB), actively involved in cutting-edge research projects in artificial intelligence, machine learning, and data science. My focus includes computer vision, group theory, manifold learning, and geometric machine learning, with a deep passion for developing innovative solutions that benefit sectors like astronomy, healthcare, and education. \nIn addition to my research responsibilities, I am actively involved in teaching undergraduate students, mentoring, and instructing various courses at IUB. My enthusiasm for learning new data science topics and conducting research drives me to make significant contributions and positively impact others' learning experiences. I am constantly striving to expand my knowledge and expertise in the field, with the ultimate goal of making a meaningful impact through my work.",
+  "description": "Feynman is a product manager for Microsoft Azure. He focuses on software supply chain security. Besides, Feynman is a CNCF Ambassador, Feynman helps CNCF to promote cloud native technologies in China. He has hosted several online or in-person campaigns, such as Kubernetes Community Days China, CNCF Webinar, and cloud native meetups. Feynman is also an InfoQ DevOps Editor. You can find the blogs and news writen by Feynman on his InfoQ profile. Feel free to contact Feynman to write a piece of news for your project if you want. When Feynman is not working, he enjoys playing basketball, hiking, reading, listening podcasts, etc. Feynman is interested in any kind of sport. You can download or preview my resume from this place. Want to have a talk or have a cup of coffee with Feynman? Book a slot with Feynman on Calendly. If you are working in China, you can connect with Feynman via WeChat ID 493200090.",
   "socialLinks": [
     {
       "name": "google-scholar",
@@ -32,6 +32,5 @@
       "url": "https://twitter.com/mir_sazzat"
     }
   ],
-  "resume": "files/mirsazzathossain-cv.pdf",
-  "note": "Seeking PhD opportunities in machine learning and computer vision."
+  "resume": "files/mirsazzathossain-cv.pdf"
 }
