@@ -42,12 +42,8 @@ export default async function Server({
   component: string;
 }): Promise<JSX.Element> {
   switch (component) {
-    case "Educations":
-      return <Educations educations={await getEducations()} />;
     case "Experiences":
       return <Experiences experiences={await getExperiences()} />;
-    case "Publications":
-      return <Publications publications={await getPublications()} />;
     case "Articles":
       return <Articles articles={await getSortedArticles()} />;
     default:
